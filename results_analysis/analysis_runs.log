@@ -1,0 +1,34 @@
+Starting: MODEL_SIZE_SMALL_A -> results_analysis/modelsize_small_a_3000.csv
+Command: python train_optimized.py --results-dir results_analysis --log-file modelsize_small_a_3000.csv --max-steps 3000 --log-interval 300 --bptt 1024 --batch-size 8 --lr 2.0 --emsize 384 --nhead 6 --nhid 768 --nlayers 3 --dropout 0.2 --optimizer sgd --lr-schedule step
+Finished: MODEL_SIZE_SMALL_A (started Thu Sep 18 20:02:52 CDT 2025, ended Thu Sep 18 20:07:38 CDT 2025)
+============================================================
+Starting: MODEL_SIZE_SMALL_B -> results_analysis/modelsize_small_b_3000.csv
+Command: python train_optimized.py --results-dir results_analysis --log-file modelsize_small_b_3000.csv --max-steps 3000 --log-interval 300 --bptt 1024 --batch-size 8 --lr 2.0 --emsize 448 --nhead 7 --nhid 896 --nlayers 3 --dropout 0.2 --optimizer sgd --lr-schedule step
+Finished: MODEL_SIZE_SMALL_B (started Thu Sep 18 20:07:38 CDT 2025, ended Thu Sep 18 20:13:07 CDT 2025)
+============================================================
+Starting: MODEL_SIZE_SMALL_C -> results_analysis/modelsize_small_c_3000.csv
+Command: python train_optimized.py --results-dir results_analysis --log-file modelsize_small_c_3000.csv --max-steps 3000 --log-interval 300 --bptt 1024 --batch-size 8 --lr 2.0 --emsize 416 --nhead 6 --nhid 832 --nlayers 3 --dropout 0.2 --optimizer sgd --lr-schedule step
+Starting: MODEL_SIZE_SMALL_C -> results_analysis/modelsize_small_c_3000.csv
+Command: python train_optimized.py --results-dir results_analysis --log-file modelsize_small_c_3000.csv --max-steps 3000 --log-interval 300 --bptt 1024 --batch-size 8 --lr 2.0 --emsize 416 --nhead 8 --nhid 832 --nlayers 3 --dropout 0.2 --optimizer sgd --lr-schedule step
+Finished: MODEL_SIZE_SMALL_C (started Thu Sep 18 20:21:52 CDT 2025, ended Thu Sep 18 20:27:11 CDT 2025)
+============================================================
+Starting: CTX_LEN_256 -> results_analysis/ctxlen_256_3000.csv
+Command: python train_optimized.py --results-dir results_analysis --log-file ctxlen_256_3000.csv --max-steps 3000 --log-interval 300 --bptt 256 --batch-size 8 --lr 2.0 --emsize 512 --nhead 8 --nhid 1024 --nlayers 4 --dropout 0.2 --optimizer sgd --lr-schedule step
+Finished: CTX_LEN_256 (started Thu Sep 18 20:27:11 CDT 2025, ended Thu Sep 18 20:28:56 CDT 2025)
+============================================================
+Starting: CTX_LEN_512 -> results_analysis/ctxlen_512_3000.csv
+Command: python train_optimized.py --results-dir results_analysis --log-file ctxlen_512_3000.csv --max-steps 3000 --log-interval 300 --bptt 512 --batch-size 8 --lr 2.0 --emsize 512 --nhead 8 --nhid 1024 --nlayers 4 --dropout 0.2 --optimizer sgd --lr-schedule step
+Finished: CTX_LEN_512 (started Thu Sep 18 20:28:56 CDT 2025, ended Thu Sep 18 20:32:11 CDT 2025)
+============================================================
+Starting: CTX_LEN_768 -> results_analysis/ctxlen_768_3000.csv
+Command: python train_optimized.py --results-dir results_analysis --log-file ctxlen_768_3000.csv --max-steps 3000 --log-interval 300 --bptt 768 --batch-size 8 --lr 2.0 --emsize 512 --nhead 8 --nhid 1024 --nlayers 4 --dropout 0.2 --optimizer sgd --lr-schedule step
+Finished: CTX_LEN_768 (started Thu Sep 18 20:32:11 CDT 2025, ended Thu Sep 18 20:37:02 CDT 2025)
+============================================================
+Starting: MODEL_SIZE_2X_EMB -> results_analysis/modelsize_2x_emb_3000.csv
+Command: python train_optimized.py --results-dir results_analysis --log-file modelsize_2x_emb_3000.csv --max-steps 3000 --log-interval 300 --bptt 1024 --batch-size 8 --lr 2.0 --emsize 1024 --nhead 16 --nhid 2048 --nlayers 4 --dropout 0.2 --optimizer sgd --lr-schedule step
+Finished: MODEL_SIZE_2X_EMB (started Thu Sep 18 21:37:48 CDT 2025, ended Thu Sep 18 21:51:48 CDT 2025)
+============================================================
+Starting: CTX_LEN_2048 -> results_analysis/ctxlen_2048_3000.csv
+Command: python train_optimized.py --results-dir results_analysis --log-file ctxlen_2048_3000.csv --max-steps 3000 --log-interval 300 --bptt 2048 --batch-size 8 --lr 2.0 --emsize 512 --nhead 8 --nhid 1024 --nlayers 4 --dropout 0.2 --optimizer sgd --lr-schedule step
+Finished: CTX_LEN_2048 (started Thu Sep 18 21:51:48 CDT 2025, ended Thu Sep 18 22:08:26 CDT 2025)
+============================================================
